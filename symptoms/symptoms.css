@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+  background-image: url(/image/RP.jpeg);
+  background-color: rgb(212, 0, 255);
+}
+  h2{
+    color: white;
+    text-align: center;
+  }
+  #myInput {
+    color: rgb(102, 0, 150);
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius: 25px;
+    width: 100%;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif,bold;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  #myTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+  }
+  
+  #myTable th, #myTable td {
+    text-align: left;
+    padding: 12px;
+  }
+  
+  #myTable tr {
+    background-color: #f1f1f1;
+
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myTable tr.header, #myTable tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  
+  
+  
